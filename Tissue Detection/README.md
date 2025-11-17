@@ -4,3 +4,5 @@ Also download the model weights from https://drive.google.com/file/d/1otWor5WnaJ
 
 The original models are from:
 https://github.com/cpath-ukk/grandqc and https://github.com/MaryamHaghighat/PathProfiler
+
+To obtain tissue segmentation masks run "run_tissue_detection.py", the outpus are put in the "outputs" folder and the input image is read from "example".
