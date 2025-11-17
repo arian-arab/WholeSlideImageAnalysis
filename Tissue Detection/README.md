@@ -9,9 +9,7 @@ To obtain tissue segmentation masks run "run_tissue_detection.py", the outpus ar
 
 There are two models that can be choosen from : "pathprofiler" and the "grandqc".
 
-The method are the four possible options: "default", "fc", "sw", and "cc".
-
-"default" is the original implementation (as it was used by the model developers), "fc" standa for fully-connected and passes the thubnmail image directly to the network if  memory allows, "sw" stands for the sliding window approach which uses a patch size of 512 and strides of 256, "cc" stands for the center crop approach which also uses strides of 256.
+The method can take the four possible options of "default", "fc", "sw", and "cc". "default" is the original implementation (as it was used by the model developers), "fc" standa for fully-connected and passes the thubnmail image directly to the network if  memory allows, "sw" stands for the sliding window approach which uses a patch size of 512 and strides of 256, "cc" stands for the center crop approach which also uses strides of 256.
 
 If you set both model and mehtod to "otsu" it performs the otsu algorithm for tissue detection.
 
